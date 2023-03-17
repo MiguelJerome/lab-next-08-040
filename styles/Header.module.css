@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}
+
+.logo {
+    width: 4rem;
+    height: auto;
+}
+
+.titre {
+    margin: 0;
+    padding: 1rem;
+}
+
+@media(min-width: 40rem) {
+    .header {
+        flex-direction: row;
+    }
+}

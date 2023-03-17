@@ -1,0 +1,17 @@
+.header {
+    border: 1px solid #000;
+    background-color: #c4c4c4;
+    padding: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.content {
+    border: 1px solid #000;
+    border-top: none;
+    padding: .5rem;
+}
+
+.hidden {
+    display: none;
+}

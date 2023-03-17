@@ -1,0 +1,13 @@
+.info {
+    border: 3px solid #000;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.blue {
+    background-color: #b7cbf8;
+}
+
+.green {
+    background-color: #b7f8d4;
+}

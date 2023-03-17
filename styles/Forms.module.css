@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 20rem;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    align-self: flex-start;
+}
+
+.erreur {
+    color: #a00;
+}
+
+.erreur::before {
+    content: '* ';
+}
